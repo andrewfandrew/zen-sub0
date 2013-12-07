@@ -1,1 +1,5 @@
-A Zen subtheme This subtheme will illustrate some of the ways that a basic theme like zen can be customised.
+- A Zen subtheme This subtheme will illustrate some of the ways that a basic theme like zen can be customised.
+- The myzen directory should be copied into sites/all/themes 
+- and the zen theme also needs to present in that directory
+- so that the myzen subtheme can inherit zen settings
+
