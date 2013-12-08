@@ -26,6 +26,18 @@ function myzen_form_system_theme_settings_alter(&$form, &$form_state, $form_id =
 
   // Remove some of the base theme's settings.
   unset($form['themedev']['zen_layout']); // We don't need to select the layout stylesheet.
+  
+  $form['feed'] = array(
+  '#type' => 'fieldset',
+  '#title' => t('Feed settings')
+  );
+  $form['feed']['zen_display_feed_icons'] = array(
+  '#type' => 'checkbox',
+  '#title' => t('Display feed icons in the body of the page.'),
+  '#default_value' => theme_get_setting('zen_display_feed_icons')
+  );
 
+
+  
   // We are editing the $form in place, so we don't need to return anything.
 }
