@@ -2,6 +2,8 @@ A Drupal 7 Zen subtheme This subtheme will illustrate some of the ways that a ba
 The goal is to provide a zen subtheme ready for production use or perhaps for staging environment. The emphasis is on
 a subtheme that will be useful and interesting, rather than one that just demonstrates customisation techniques.
 
+Il va falloir installer la version 7.x-3.x.dev du theme Zen.
+
 To use this repo, clone the lastest version of drupal 7 to your development box/ system. You will need a LAMP stack
 installed and configured on your dev box. Follow instructions for setting up a drupal 7 site. Ideally install drush
 and you will need to install git.
